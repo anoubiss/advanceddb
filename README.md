@@ -10,6 +10,8 @@ write_performance = {
     'eventstore': get_performance_data(eventstore_write, NUM_ROWS, NUM_THREADS),
     'kafka': get_performance_data(kafka_write, NUM_ROWS, NUM_THREADS)
 }
+```
+
 ## Collecting Performance Data
 
 To collect performance data for both read and write operations with Kafka, PostgreSQL (psql), and EventStore, follow these steps:
@@ -33,4 +35,4 @@ Ensure that you have the required dependencies installed and configured before r
    
 3. Analyze the generated results and graphs to assess the read and write performances of each database.
 
-Make sure to follow the specific installation instructions for each database to ensure a smooth benchmarking process.
+Make sure to follow the specific installation instructions for each database to ensure a smooth benchmarking process. 
